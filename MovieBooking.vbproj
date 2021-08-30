@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30DCA6FA-EA60-4369-888C-80A086C7591A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MovieBooking.My.MyApplication</StartupObject>
+    <RootNamespace>MovieBooking</RootNamespace>
+    <AssemblyName>MovieBooking</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MovieBooking.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MovieBooking.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Software\MySQLFiles\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFood.Designer.vb">
+      <DependentUpon>AddFood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddFood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMovieForm.Designer.vb">
+      <DependentUpon>AddMovieForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddMovieForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForgotPassword.Designer.vb">
+      <DependentUpon>AdminForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.vb">
+      <DependentUpon>AdminForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.vb">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingReport.Designer.vb">
+      <DependentUpon>BookingReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BookingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookMovie.Designer.vb">
+      <DependentUpon>BookMovie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BookMovie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelBookingForm.Designer.vb">
+      <DependentUpon>CancelBookingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CancelBookingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBClass.vb" />
+    <Compile Include="FeedBackForm.Designer.vb">
+      <DependentUpon>FeedBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodOrder.Designer.vb">
+      <DependentUpon>FoodOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FoodOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
+    <Compile Include="Movie.Designer.vb">
+      <DependentUpon>Movie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Movie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoviesReport.Designer.vb">
+      <DependentUpon>MoviesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoviesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBooking.Designer.vb">
+      <DependentUpon>SearchBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeatBoking.Designer.vb">
+      <DependentUpon>SeatBoking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SeatBoking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBooking.Designer.vb">
+      <DependentUpon>ViewBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFeedBackForm.Designer.vb">
+      <DependentUpon>ViewFeedBackForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFeedBackForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddFood.resx">
+      <DependentUpon>AddFood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMovieForm.resx">
+      <DependentUpon>AddMovieForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForgotPassword.resx">
+      <DependentUpon>AdminForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingReport.resx">
+      <DependentUpon>BookingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookMovie.resx">
+      <DependentUpon>BookMovie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelBookingForm.resx">
+      <DependentUpon>CancelBookingForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBackForm.resx">
+      <DependentUpon>FeedBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodOrder.resx">
+      <DependentUpon>FoodOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movie.resx">
+      <DependentUpon>Movie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviesReport.resx">
+      <DependentUpon>MoviesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBooking.resx">
+      <DependentUpon>SearchBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeatBoking.resx">
+      <DependentUpon>SeatBoking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBooking.resx">
+      <DependentUpon>ViewBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFeedBackForm.resx">
+      <DependentUpon>ViewFeedBackForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie-ticketing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\494641.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4946411.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movies-tiles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491933-full-size-movie-theatre-wallpaper-1920x1080.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-abstract-background-11-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ext.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\547538.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\496007.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cybersecurity-istockphoto-kqv--621x414%40LiveMint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\601246091_640x360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491890-amazing-movie-theatre-wallpaper-1920x1080.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491897-widescreen-movie-theatre-wallpaper-2365x1478.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164286283-film-wallpapers.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164286349-film-wallpapers.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491943-free-download-movie-theatre-wallpaper-1920x1080-retina.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164286389-film-wallpapers.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pqr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491943-free-download-movie-theatre-wallpaper-1920x1080-retina1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491921-full-size-movie-theatre-wallpaper-2048x1536-for-android-50.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491914-movie-theatre-wallpaper-1920x1080-for-android-50.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\164288193-film-wallpapers.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

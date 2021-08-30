@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MovieBooking
+</name>
+</assembly>
+<members>
+<member name="P:MovieBooking.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491890_amazing_movie_theatre_wallpaper_1920x1080">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491897_widescreen_movie_theatre_wallpaper_2365x1478">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491914_movie_theatre_wallpaper_1920x1080_for_android_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491921_full_size_movie_theatre_wallpaper_2048x1536_for_android_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491933_full_size_movie_theatre_wallpaper_1920x1080">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491943_free_download_movie_theatre_wallpaper_1920x1080_retina">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._1491943_free_download_movie_theatre_wallpaper_1920x1080_retina1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._164286283_film_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._164286349_film_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._164286389_film_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._164288193_film_wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._494641">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._4946411">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._496007">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._547538">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources._601246091_640x360">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.cybersecurity_istockphoto_kqv__621x414_LiveMint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.ext">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.free_abstract_background_11_vector">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.movie_ticketing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.movies_tiles">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.pay">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.pqr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MovieBooking.My.Resources.Resources.reg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:MovieBooking.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
